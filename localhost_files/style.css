@@ -1,0 +1,78 @@
+.crosspointer {
+    cursor: crosshair;
+}
+
+.cursor-fancy {
+    cursor: url('../images/q.jpg') 20 20, pointer;
+}
+
+.dropbtn {
+    color: white;
+    padding: 2px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;/
+}
+
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transform: scale(0.77);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+    margin-left: -53px;
+}
+
+.size {
+    margin-left: 95px !important;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.file {
+    background-color: #d1d5db;
+}
+
+.hide {
+    display: none;
+}
+
+.setbg{
+    background-color: #f9f9f9;
+}
+
+@media print {
+    body * {
+      display: none;
+    }
+  
+    .printable-area {
+      display: block;
+    }
+  }
+  
