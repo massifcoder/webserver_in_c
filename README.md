@@ -3,6 +3,8 @@
 ## What is Web Server?
 A server is a computer program or a device that serves content, such as web pages, to clients over the internet or a local network.
 
+![server](https://github.com/massifcoder/webserver_in_c/assets/81623465/55e0780a-e455-4858-8697-b306c26db013)
+
 ## How does it work?
 Works on client-server model. It listens for incoming requests from clients, processes those requests, and returns appropriate responses.
 
@@ -28,6 +30,8 @@ To run the web server, follow these steps:
 1. Clone or download this repository to your local machine.
 2. Compile the source code using a C compiler (e.g. GCC).
 3. Run the compiled executable specifying the desired port number (e.g., ./webserver 8080).
+   
+![web_server_in_c](https://github.com/massifcoder/webserver_in_c/assets/81623465/118b4b1d-b852-4062-8d5a-00a42ad0d1c0)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
